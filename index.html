@@ -9,47 +9,51 @@
 </head>
 <body>
     <!--menu-->
-    <div class="tausta row"> 
+    <div class="tausta row" id="menustyle"> 
         <div>
-            <img src="https://placehold.co/100x50"> </Img>
+            <p class="header-logo">Header Logo</p>
         </div>
         <div class="right-align">
-            <p >header link one</p>
+            <p class="hero-secondary-text">header link one</p>
         </div>
         <div>
-            <p>header link two</p>
+            <p class="hero-secondary-text">header link two</p>
         </div>
         <div>
-            <p>header link three</p>
+            <p class="hero-secondary-text">header link three</p>
         </div>
     </div>
 
     <!--hero-->
-    <div class="row">
-    <div class="tausta column"> 
+    <div class="row tausta" id="hero">
+    <div class="column"> 
         <h1 class="hero-main-text">This website is <br>awesome</h1>
-        <p>This website has some subtext that goes here...</p>
+        <p class="hero-secondary-text">This website has some subtext that goes here...</p>
         <button class="cta-color">Sign up</button>
     </div>
     <div class="tausta column">
-        <img src="https://placehold.co/400x200"></Img>
+        <p id="imgplaceholder">this is a placeholder for an image</p>
         </div>
     </div>
 
     <!--random information-->
-    <div> 
-        <h2 class="center-text">Some random information</h2>
+    <div class="random-section"> 
+        <h2 class="center-text">Some random information.</h2>
         <div class="row">
         <div class="column25">
+            <p class="emptybox"> </p>
             <p>this is some subtext under an illustration image</p>
         </div>
         <div class="column25">
+            <p class="emptybox"> </p>
             <p>this is some subtext under an illustration image</p>
         </div>
         <div class="column25">
+            <p class="emptybox"> </p>
             <p>this is some subtext under an illustration image</p>
         </div>
         <div class="column25">
+            <p class="emptybox"> </p>
             <p>this is some subtext under an illustration image</p>
         </div>
         </div>
@@ -57,20 +61,19 @@
 
     <!--quote-->
     <div id="quote-bg"> 
-<p id="quote">This is an inspiring quote, or a testimonial from a customer</p>
+<p id="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice.</p>
 <p id="quote-source">-Thor, God of Thunder</p>
     </div>
 
     <!--cta-->
     <div class="cta-color cta-margin"> 
-    <p>Call to action! It's time!</p>
-    <p>Sign up for our product by clicking that button over there!</p>
-    <button class="cta-color right-align">Sign up</button>
+    <p><strong>Call to action! It's time! </strong><br>Sign up for our product by clicking that button over there!</p>
+    <button class="cta-color right-align" id="cta-btn">Sign up</button>
     </div>
 
 
     <!--footer-->
-    <div class="center-text"> 
+    <div class="center-text tausta copyright"> 
         <p>Copyright c The odin project student 2024</p>
     </div>
 </body>
